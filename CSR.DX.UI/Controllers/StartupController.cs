@@ -12,7 +12,7 @@ namespace CSR.DX.UI.Controllers
         // GET: Startup
         public ActionResult Index()
         {
-            return Content("Total " + PluginManager.PluginTypes.Count.ToString() + " Plugins");
+            return Content("Total " + PluginManager.PluginTypes.Count.ToString() + " Plugins"  );
         }
     }
 }
